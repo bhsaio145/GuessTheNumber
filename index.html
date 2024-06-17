@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- CSS -->
+        <link rel="stylesheet" href ="./css/index.css">
+        <title>Guess the Number</title>
+    </head>
+    <body>
+        <div class="above_display">
+            <h1>Guess The Number</h1>
+            <h3>between 1 and 100</h3>
+            <button class="reset_btn btn">again</button>
+            <p class="highscore_section">Highscore:<span class="highscore">0</span></p>
+            <div class="number">?</div>
+        </div>
+        <div class="bottom_display">
+            <p class="message">Guessing...</p>
+            <div class="hp_bar">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+                <img src="./images/heart_red.png" alt="heart.png" class="heart">
+            </div>
+            <div class="guessing">
+                <input type="number" class="guess" min="1" max="100">
+                <button class="guess_btn btn">Guess</button>
+            </div>
+        </div>
+        <!-- JS -->
+        <script src="./js/index.js"></script>
+    </body>
+</html>
